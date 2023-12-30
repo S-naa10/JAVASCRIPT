@@ -1,0 +1,70 @@
+/* /* Add styles for the dynamically created elements */
+body{
+    justify-content: center;
+    align-items: center;
+}
+.task-list-item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.task-list-item .task-text {
+  flex: 1;
+  width: 150px;
+}
+
+.task-list-item button.delete {
+  margin-left: 20px;
+}
+  
+  /* Include the styles from your original CSS file */
+  .main {
+    background-color: bisque;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:300px;
+  }
+  
+  .first {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .first input {
+    margin-right: 10px;
+  }
+  
+  .first .task-input {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .first .add-button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .task-list li {
+    margin-bottom: 15px;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-text {
+    flex: 1;
+    width: 150px;
+  }
+  
+  .task-list button.delete {
+    margin-left: 20px;
+  }
